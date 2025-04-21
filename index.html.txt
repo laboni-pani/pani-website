@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pani - জীবনের আরেক নাম</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f9ff;
+      color: #333;
+    }
+    header {
+      background-color: #001f3f;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    .logo {
+      max-width: 120px;
+    }
+    .slogan {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: #7FDBFF;
+    }
+    nav {
+      background-color: #0074D9;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://source.unsplash.com/1600x500/?water,clean') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 6px #000;
+    }
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      color: #0074D9;
+    }
+    .footer {
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .logo-container img {
+      max-width: 150px;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="https://i.ibb.co/1RPR3P6/pani-logo.png" alt="Pani Logo" class="logo" />
+      <div class="slogan">জীবনের আরেক নাম</div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#factory">Factory</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Welcome to Pani - Pure Drinking Water
+  </div>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>Pani is dedicated to providing clean, safe, and refreshing drinking water. Our mission is to ensure every drop meets the highest purity standards.</p>
+  </section>
+
+  <section class="section" id="products">
+    <h2>Our Products</h2>
+    <p>We offer bottled water in various sizes, suitable for homes, offices, restaurants, and tea stalls. Available in 500ml, 1L, and 20L jars.</p>
+  </section>
+
+  <section class="section" id="factory">
+    <h2>Our Factory</h2>
+    <p>Our factory, located in Gazipur, uses state-of-the-art purification technology and complies with all health and safety standards.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@panibd.com | Phone: +880-1XXXX-XXXXXX</p>
+    <p>Head Office: Dhaka | Factory: Gazipur</p>
+  </section>
+
+  <footer class="footer">
+    &copy; 2025 Pani. All rights reserved.
+  </footer>
+</body>
+</html>
